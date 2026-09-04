@@ -1,3 +1,4 @@
 1.cloudinary.js
 2.middleware/multer.js
-3.
+3.models/post.js
+4.
