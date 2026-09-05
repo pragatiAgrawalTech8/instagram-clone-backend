@@ -1,4 +1,14 @@
 1.cloudinary.js
 2.middleware/multer.js
 3.models/post.js
-4.
+4.models/comments.js
+5.controllers/postController.js
+6.models/User.js
+7.
+8.
+9.
+10.
+11.
+12.
+13.
+14.
