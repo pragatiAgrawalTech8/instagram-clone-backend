@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import cors from "cors";
 import connectDB from "./config/db.js";
+import authRoutes from "./routes/authRoutes.js";
 
 dotenv.config();
 connectDB();
@@ -12,6 +13,7 @@ const app = express();
 app.use(express.json());          // JSON body parse karne ke liye
 app.use(express.urlencoded({ extended: true }));
 app.use(cors());                  // frontend requests allow karne ke liye
+app.use("/api/auth", authRoutes);
 
 // Test route
 app.get("/", (req, res) => {
