@@ -1,9 +1,11 @@
+prag90987_db_user
+WdhklSvtYa2b1Z09
 1.cloudinary.js
 2.middleware/multer.js
 3.models/post.js
 4.models/comments.js
-5.controllers/postController.js
-6.models/User.js
+5.models/User.js //1
+6.controllers/postController.js
 7.
 8.
 9.
